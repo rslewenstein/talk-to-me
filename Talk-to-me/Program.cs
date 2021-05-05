@@ -9,9 +9,11 @@ namespace Talk_to_me
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello World!");
-
-            Speech.ExecuteSpeak("Olá! Tudo bem? How are you? Ça-vá?");
+            string textDig = null;
+            Console.WriteLine("Enter you word or phrase: ");
+            textDig = Console.ReadLine();
+            //Speech.ExecuteSpeak("Olá! Tudo bem? Hello! How are you? Salut! Ça-vá?");
+            Speech.ExecuteSpeak(textDig);
         }
     }
 

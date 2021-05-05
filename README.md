@@ -1,0 +1,1 @@
+# A simple test of speech in .Net Core 5 (C#)
